@@ -607,7 +607,8 @@ footer {
 }
 
 #internships {
-    padding: 50px 15px;
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid #dcd9d9;
     text-align: center;
 }
 
@@ -616,23 +617,44 @@ footer {
     margin-bottom: 50px;
 }
 
-#internships ul {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    max-width: 800px;
+.internships-block {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px solid #dcd9d9;
+    text-align: left;
 }
 
-#internships li {
-    display: inline-block;
-    margin: 7px;
-    padding: 5px 10px;
+.internships-block h3 {
+    font-weight: 500;
+    float: left;
+    margin: 0;
     color: #374054;
-    background: #e4e4ea;
-    list-style: none;
-    cursor: default;
-    font-size: 1.2em;
 }
+
+.internships-block span {
+    color: #74808a;
+    float: right;
+}
+
+.internships-block h4 {
+    color: #74808a;
+    clear: both;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.internships-block p,
+.internships-block ul {
+    margin: 0;
+    color: #74808a;
+    font-size: 0.9em;
+}
+
+.internships-block ul {
+    padding: 0 0 0 15px;
+}
+
 
 #courses {
     padding: 50px 15px;
